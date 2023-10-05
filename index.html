@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <main class="card">
+      <div class="card__icon">
+        <img src="./images/icon-star.svg" alt="icon start" />
+      </div>
+
+      <h1 class="card__title">How did we do?</h1>
+
+      <p class="card__text">
+        Please let us know how we did with your support request. All feedback is appreciated to help
+        us improve our offering!
+      </p>
+
+      <div class="card__numbers">
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>5</p>
+      </div>
+
+      <button type="submit" class="card__button" onclick="">Submit</button>
+    </main>
+
+    <main class="card result">
+      <div class="result__image">
+        <img src="./images/illustration-thank-you.svg" alt="image thank" />
+      </div>
+
+      <p class="showResult"></p>
+
+      <h1 class="card__title">Thank you!</h1>
+
+      <p class="card__text card__text--center">
+        We appreciate you taking the time to give a rating, if you ever need more support, don't
+        hesitate to to get in touch!
+      </p>
+    </main>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
